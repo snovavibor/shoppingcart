@@ -1,0 +1,22 @@
+.box {
+    padding: 10px;
+
+    border: 2px solid gray;
+}
+
+article {
+    font-weight: bold;
+
+    text-align: center;
+}
+
+input {
+    width: 30px;
+
+    text-align: center;
+}
+
+.bgBorder {
+    border: 1px solid gray;
+    background-color: lightgray;
+}

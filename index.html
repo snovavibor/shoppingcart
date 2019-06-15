@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row   mb-2 mt-5">
+            <div class="col-4 ml-auto">
+                <div class="box">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="icon">
+                                <i class="fas fa-shopping-cart fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-9">
+                                    <p class="titleCount"> Количество товаров</p>
+                                </div>
+                                <div class="col-3">
+                                    <p id="countProduct" class="bgBorder text-center rounded-circle"> 0 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p> Сумма заказа </p>
+                                </div>
+                                <div class="col">
+                                    <p id="summaTotal" class="bgBorder text-center"> 0 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col">
+                <article class="box">
+                    <div class="picter">
+                        <img src="images/roz.png" alt="buketRoz" class="img-fluid">
+                    </div>
+                    <p>Букет 101 роза красная<br>
+                        Престиж 80см</p>
+                    <p data-prise="1050" class="prise"> Цена 1050 грн.</p>
+                    <div class="summaTotal row justify-content-center">
+                        <div class="col-6 text-right">
+                            <p> кол-во </p>
+                        </div>
+                        <div class="col-6 text-left">
+                            <input type="text" autocomplete="off" value="0" name="countUser" id="countUser1" class="bgBorder">
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col">
+                <article class="box">
+                    <div class="picter">
+                        <img src="images/roz.png" alt="buketRoz" class="img-fluid">
+                    </div>
+                    <p>Букет 101 роза красная<br>
+                        Престиж 80см</p>
+                    <p data-prise="3030" class="prise"> Цена 3030 грн.</p>
+                    <div class="summaTotal row justify-content-center">
+                        <div class="col-6 text-right">
+                            <p> кол-во </p>
+                        </div>
+                        <div class="col-6 text-left">
+                            <input type="text" autocomplete="off" value="0" name="countUser" id="countUser1" class="bgBorder">
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col">
+                <article class="box">
+                    <div class="picter">
+                        <img src="images/roz.png" alt="buketRoz" class="img-fluid">
+                    </div>
+                    <p>Букет 101 роза красная<br>
+                        Престиж 80см</p>
+                    <p data-prise="2050" class="prise"> Цена 2050 грн.</p>
+                    <div class="summaTotal row justify-content-center">
+                        <div class="col-6 text-right">
+                            <p> кол-во </p>
+                        </div>
+                        <div class="col-6 text-left">
+                            <input type="text" autocomplete="off" value="0" name="countUser" id="countUser1" class="bgBorder">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-4">
+                <button class="w-100 btn btn-dark" id="addBasket"> Добавить в корзину </button>
+            </div>
+            <div class="col-4">
+                <button class="w-100 btn btn-secondary" id="delBasket"> Очистить корзину </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/my-script.js"></script>
+</body>
+
+</html>
